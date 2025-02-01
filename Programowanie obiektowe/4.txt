@@ -1,0 +1,25 @@
+1. Programowanie obiektowe
+ - schemat OOP - Objecct oriented Programming
+
+ - Co to jest zmienna, co to jest typ danych.
+ - Proste typy danych 
+ - typy numeryczne
+ - typy znakowe
+ - typy logiczne
+ - łańcuchy znaków
+
+Do tego piszemy przykłady i deklaracje zmiennych
+
+ - Czym chrakteryzuje sie typowanie statyczne i typowanie dynamiczne w programowaniu. Wykazać różnicę w typowaniu pomiedzy JavaScriptem i C#.
+
+
+
+
+
+
+
+2. Programowanie webowe
+
+ - przypomnienie podstaw 35 :
+ - składania funkcji, do czego służą funkcje itp...
+ - pętle for, while, do while

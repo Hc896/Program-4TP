@@ -1,0 +1,72 @@
+I. Programowanie obiektowe - zaczynamy od C#
+- schemat OOP - Object Oriented Programming
+ 
+- Co to jest zmienna, co to jest typ danych
+- Proste typu danych
+- typy numeryczne
+- typy znakowe
+- typy logiczne
+- łańcuchy znaków
+ 
+Do tego piszemy przykłady i deklaracje zmiennych
+ 
+- Czym charakteryzuje się typowanie statyczne i typowanie dynamiczne w programowaniu. Wykazać różnicę w typowaniu pomiędzy JavaScriptem i C#.
+ 
+Składnia funkcji / metody w C# - przykład funkcji obliczającej sume dwóch liczb: prawidłowa deklareacja funckji i jej wywołanie 
+ 
+Tablice - deklaracja tablicy - przykład, dostęp do poszczególnych elemntów, długość tablicy 
+Iteracja po tablicy - pętla for i pętla for each
+ 
+Paradygmat - na czym polega programowanie obiektowe.
+Pojęcia obiekt, klasa (typ), instancja klasy
+Wyświetlanie właściwości obiektu przez jego referencje(nazwe)i kropka np obiekt1.name
+Zmiana właściwości - przypisanie nowych wartości
+Wyświetlanie metody na obiekcie np obiekt1.jedz();
+ 
+konstruktor - konstruktor domyślny 
+ 
+ 
+ 
+2. Programowanie webowe - JavaScript
+ 
+Operatory - to symbole służące do operacji na zmiennych. Operatory łączone używane np. w pętlach: ++, --, +=, +=2 oraz służące do porównywania == zgodność wartości, === zgodność 
+wartości oraz typu.
+ 
+Pętle for, while, do while - znamy składnię i potrafimy napisać kod pętli na podstawie rysunku algorytmu. 
+ 
+Tablice - odnosienie się do poszczególnych elementów przez indeks. Iteracja po tablicy za pomocą pętli - rozumiemy jak reprezentowane są elementy tablicy wewnątrz pętli. 
+ 
+funkcje - składnia, co to są i do czego służą. (składnia funkcji - przykład z budową młotka - funkcja przyjmuje dwa argumenty i zwraca gotowy młotek)
+Składnia funkcji strzałkowej
+ 
+3. Zadania - kod algorytmu wypisującego liczby pierwsze z zadanego przedziału. Podstawiamy do kodu za zmienną number 7 i opisujemy w komentach co dzieję się w kodzie.
+To samo powtarzamy dla 9. Potrafić wskazać dokładne miejsce w którym algorytm się zatrzymuje dla number 7 i 9
+ 
+Enkapsulacja / hermetyzacja - gettery i settery / uprawnienia - 
+Enkapsulacja polega na ukrywaniu pól klasy przy jednoczesnym dostarczeniu metod dostępu(get) i edycji(set) dla tych pól.
+ 
+Weryfikacja sposób hermetyzacji danych to skorzystanie ze specjalnej właściwości Property
+ 
+ 
+class Player {
+      private string _name;
+      private int _score;
+      //Nowszy sposób i pomoc latwiejszy hermetyzacji danych konta
+      //Property
+      public string Name {
+          get {
+              return _name;
+ 
+          }
+          set{
+              _name = value;
+          }
+ 
+      }
+  }
+  player.Name = "Tom"//odpalamy settery
+  Console.WriteLine(player.Name);//odpalamy gettera
+ 
+  Auto implement property;
+  public string Name{get; set;}
+  edycja i dostęp tak jak wyżej w przypadku Property;

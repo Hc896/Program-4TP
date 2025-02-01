@@ -1,0 +1,55 @@
+using System;
+
+class MainClass {
+    static void Main() {
+        Osoba osoba1 = new Osoba();
+        osoba1.Greet("Jan"); // Added semicolon
+        Osoba osoba2 = new Osoba(2, "Kacper");
+        osoba2.Greet("Jan");
+        Osoba osoba3 = new Osoba(osoba2);
+        osoba3.Greet("Jan");
+
+       
+
+        Console.WriteLine("Liczba zarejestrowanych osób: " + Osoba.liczba);
+    }
+}
+
+class Osoba {
+    private int id;
+    private string imię;
+    public static int liczba = 0;
+
+    public int Id {
+        get { return id; }
+    }
+
+    public string Imię {
+        get { return imię; }
+        set { imię = value; }
+    }
+
+    
+    public Osoba() {
+        this.id = 0;
+        this.imię = "";
+        liczba++;
+    }
+
+    public Osoba(int id, string imię) {
+        this.id = id;
+        this.imię = imię;
+        liczba++; 
+    }
+
+    public Osoba(Osoba osoba) {
+        this.id = osoba.id;
+        this.imię = osoba.imię;
+        liczba++;
+    }
+
+    
+    public void Greet(string name) {
+        Console.WriteLine("Cześć " + name + ", mam na imię " + imię);
+    }
+}

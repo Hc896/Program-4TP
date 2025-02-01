@@ -1,0 +1,188 @@
+React -
+
+Node Js -
+
+NPM - 
+
+Narzędzia służące do stworzenia szkieletu aplikacji webowej w React:
+npx create-react-app
+oraz narzędzie Vite, które będziemy używać na zajęciach.
+npm create vite@latest react-app i wybieramy z listy React potem Javascript
+react-app to nazwa folderu projektu. Musimy do niego wejść...
+cd react-app
+teraz instalujemy zaleznosci
+npm install
+npm run dev i projekt powinien dzialac na serwerze developerskim na localhoscie
+port domyslny 5173
+http://localhost:5173/
+
+Z czego składa się szablon projektu react? Ważne pliki: index.html(tutaj mamy diva root 
+do którego wstrzykiwane są komponenty Reacta),
+main.jsx - tutaj mamy funkcję createRoot renderującą nasz główny komponent App w divie 'root'. 
+app.jsx - główny komponent - rodzic całej aplikacji.
+package.json - scrypty i zależności. 
+
+Komponent funkcyjny - plik z roszeżeniem .jsx (javascript xml) - Zwykła funkcja
+zwracająca obiekt jsx - to ten kod wewnątrz funkcji po return, który przypomina 
+HTML. Obiekty jsx tworzą elementy strony widoczne w interfejsie graficznym aplika-
+cji.
+
+Jakie są korzyści z używania frameworków takich jak React?
+Co to jest programowanie deklaratywne?
+
+1. Wstrzyknięcie wartości z javascriptu do obiektu jsx odbywa się przy użyciu react dynamic expression:
+
+Najpierw na górze funkcji tworzymy zmienną i wstrzykujemy ją do komponentu:
+const greeting = "Hello World!"
+wewnątrz komponentu po return wyświetlamy za pomocą klamr: <h2>{greeting}</h2>
+
+2.Odczyt w sposób dynamiczny liczby elementów z tablicy (takie było jedno z poleceń na arkuszu egz)
+wykonujemy korzystając z właściwości length:
+<h2>{`liczba osób z tablicy:  ${names.length}`}</h2>
+
+3. Liczby pseudolosowe w Javascript - losowe wyciągnięcie elementu z tablicy.
+Musimy wylosować randomowy index korzystając z poniższych instrukcji: 
+const length = names.length;
+    const x = Math.random();
+    const randIndex = Math.floor(Math.random()* length);
+    return names[randIndex];
+
+
+4.Składnia funkcji strzałkowej - tworzymy funkcję jak zmienną, następnie Worek czyli () to miejsce 
+na argumenty i strzałka. Po strzałce ciało funkcji
+
+const krzyczNaDzieci = () => {
+	return "proszę grzeczne dzieciaczki o spokój"
+}
+
+Wersja standardowa: function declaration
+function krzyczNaDzieci() {
+	return "proszę grzeczne dzieciaczki o spokój"
+}
+
+wywołanie : krzyczNaDzieci()
+w kontekście obiektowym by było: dziadek.krzyczNaDzieci()
+
+Wersja druga z argumentem:
+const krzyczNaDzieci2 = (trescOkrzyku) => {
+return trescOkrzyku;
+}
+Wywołanie: przy wywołaniu musimy dostarczyć wartość parametru czyli argument:
+krzyczNaDzieci("wrrrrrrrrrrrr");
+
+5.Tworzenie własnych komponentów funkcyjnych.
+Komponent tworzymy w nowym pliku i nazywamy z dużej litery. Staje się on dzieckiem komponentu głównego App
+W aplikacjach reactowych mamy one way data flow - jednokierunkowy przepływ danych od rodzica do dziecka.
+Aby użyć komponentu musimy umieścić go w JSXie rodzica czyli App.jsx
+
+6. click events - 
+funkcje zdefiniowaną wcześniej podczepiamy poprzez referencje czyli samą jej nazwę bez operatora wywolania -
+bez nawiasów ()
+
+<button onClick={handleClick}>Click me</button>
+na zdarzeniu onClick na tym buttonie wywołana zostaje funkcja handleClick 
+
+Obiekt zdarzenia - event object - każda funkcja w reakcie przypisana do zdarzenia ma dostęp w parametrze do
+obiektu zdarzenia. Jest on potrzebny m. in do odczytania wartości z inputa (właściwość .target.value) oraz
+do obsługi formularza.
+
+const handleClick2 = (event) => {
+        console.log(event); // w konsoli wyświetli się cały obiekt event z jego wszystkimi właściwościami
+
+funkcja anonimowa - funkcja bez nazwy - najczęściej używana do wywołania innej funkcji w jej wnętrzu.
+<button onClick={()=> handleClick3("Kamil")}>Click me -funkcja z argumentem</button>
+W ten sposób powyższa funkcja będzie działać tylko po kliknięciu i nie zostanie automatycznie wywołana przy
+renderowaniu kodu komponentu.
+
+7. Stan aplikacji - służy do aktualizowania elementów zmiennych w interfejsie graficznym naszej aplikacji
+Zmiana stanu powoduje automatyczne renderowanie kodu komponentu bez get requestu do serwera czyli bez odświe-
+żenia całej strony.
+
+Stan możemy zmienić korzystając z tzw hooka useState().
+const [count, setCount ] = useState(0); argument w nawiasie oznacza wartość domyślną stanu.
+Co zwraca funkcja useState()? Zwraca zdestrukturyzowane z tablicy dwie zmienne: jedną jest aktualny stan 
+a drugą jest funkcja aktualizująca ten stan.
+
+8. Ternary operator - skrócony if z dwókropkiem
+<p>{colorName? colorName : "please write a color name in input"}</p>
+Składnia- warunek? kod if true : kod if false
+
+9.Podstawowe kontrolki w React i zdarzenia (event object opisany powyżej w punkcie 6.)
+Form - formularz - zdarzenie onSubmit - na zatwierdzeniu formularza czyli klawisz enter albo button jesli jest
+wewnątrz formularza. W onSubmit podpinamy funkcje w której blokujemy domyślne zachowanie przeglądarki czyli 
+get request do serwera(odświeżenie całej strony) Przykład:
+<form onSubmit={(event)=>event.preventDefault()}>
+W funkcji podpiętej do onSubmit na arkuszach egzaminacyjnych wyświetlamy consoli logi z wynikiem działania całej
+logiki alikacji np: Jan Kowalski zapisał się na kurs ....
+  
+Input - pole tekstowe albo numeryczne pobierające informacje od użytkownika. Zdarzenie onChange - śledzi zmiany w 
+inpucie. Pobranie wartości z inputa następuje poprzez event.target.value
+Przykład:
+<input  
+    type="text"
+    value={colorName}
+    onChange={(event)=> setColorName(event.target.value)}>
+    //taką zmianę stanu jak wyżej przez zagnieżdżoną funkcję wewnątrz funkcji anonimowej zamieniamy umownie na 
+    //przekazanie funkcji przez referencje:
+    // onChange={handleInputChange} tą funkcję trzeba stworzyć powyżej przed returnem w komponencie:
+    const handleInputChange = (e) => {
+    setColorName(e.target.value);
+  }
+	
+</input>
+
+lista rozwijana
+checkbox
+radioButton
+
+10. React props (properties) - właściwości stałe.
+    Przepływ danych w komponentach reactowych jest jednokierunkowy - podobnie jak w dziedziczeniu - od rodzica do dziecka.   
+    Dane czyli zmienne albo funkcje wysyłamy do dzieci w "paczkach", które są odbierane poprzez obiekt props. 
+
+Przesyłanie props od rodzica czyli App do dziecka czyli do Input:
+	W app wysyłamy wewnątrz JSX:
+	składnia: nazwa paczki z propsem = zmienna z zawartością
+	<Input 
+		colorNameProps = {colorName}
+		handleSubmit = {handleSubmit}
+
+		>
+	</Input>
+
+Aby odebrąć propsa czyli paczke w dziecku w pierwszej lini kodu definiującej funkcję komponentu w miejscu argumentów wpisujemy
+nazwę paczki albo paczek:
+export const Input =( {colorNameProps, handleSubmit} ) => { 
+
+11. Mapa - funkcja, która służy do stworzenia grupy albo listy elementów interfejsu graficznego strony:
+
+	<ol>
+             {courses.map((course)=>(
+                 <li>{course}</li> 
+                ))}
+        </ol> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

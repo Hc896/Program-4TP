@@ -1,0 +1,54 @@
+1.Programowanie Obietkowe
+- schemat OOP - Object-Oriented Programming{
+Obiekt: Kot
+Atrybuty (cechy):
+
+kolor: szary
+wiek: 2 lata
+rasa: perski
+Metody (działania):
+
+miauczenie()
+jedzenie()
+spanie()
+}
+
+- co to jeszt zmienna, co to jest typ danych.
+typy:
+numerycz e
+lancuchy znakow 
+logiczne 
+
+typowanie statycznie to musimy napisac typpp danycgh a w dynamicznym automatycznie daje taki jaki powienie byc. deklaroanie w js nie jest jawne a w c# jest jawne. w js jest mnije przewidywalny przez dynamiczne typowanie a c# jest wienksza kontrola i bezpieczewnstwo typu co minimalizuje liczbe blendow zwionzanycbg z nieoczekiwanymi konsenkwencjami zmiany  typu lub zminay dzialania programou w czasie dzialamnia..
+
+Programowanie obiektowe – paradygmat programowania, w którym programy definiuje się za pomocą obiektów – elementów łączących stan i zachowanie. Obiektowy program komputerowy wyrażony jest jako zbiór takich obiektów, komunikujących się pomiędzy sobą w celu wykonywania zadań.
+Główne paradygmaty programowania obiektowego: Abstrakcja. Enkapsulacja. Dziedziczenie.
+
+obiekt posiada atrybuty i zachowanie.
+
+paradygmat - naq czym polega programowanie obiektowe
+pojencia obiekt, klasa , typ, instancja klasy
+
+Instancja – pojedyncze wystąpienie niezależnego kodu zgodnego z danym wzorcem. Najpopularniejszym przykładem jest instancjonowanie klas w programowaniu obiektowym, czyli tworzenie obiektów.
+Typ – opis rodzaju, struktury i zakresu wartości, jakie może przyjmować dany literał, zmienna, stała, argument, wynik funkcji lub wartość
+Obiekt – wyodrębniony element rzeczywistości, mający znaczenie w rozpatrywanym modelu. Obiekt – element – może być materialny lub abstrakcyjny.
+Klasa – częściowa lub całkowita definicja dla obiektów. Definicja obejmuje dopuszczalny stan obiektów oraz ich zachowania. Obiekt, który został stworzony na podstawie danej klasy nazywany jest jej instancją. Klasy mogą być typami języka programowania – przykładowo, instancja klasy Owoc będzie mieć typ Owoc
+
+
+
+
+
+    
+Enkapsulacja/ hermetyzacja - geGetters and Setters / uprawnienia
+
+Enkapsulacja polega na ukrywanmiu pól klasy przy jednoczesnym dostarczeniu metod dostępu i edycji dla tych pól.
+
+dziedziczenie to relajca zachodząca pomiędzy klasami pozwalająca ich obiektom na dziedzicznei wlasciwosci i metod sluzy do budowy hierarhi klas od najbardziej ogólnej do najbardziej szczególowej(zwienkszamyu specjalizacje) klasa moze dizedzicy po po jendej klasie z wlasicwym identyfikatorem dostempu.
+dziedziczenie dziala w jedną storne od rodzica do dziecka.
+
+
+
+2.Programowanie webowe
+- przypominanie podstaw js 
+  - skladnia fukcji i jak dziala funkcja etc.......
+  - pętla for, while, do while 
