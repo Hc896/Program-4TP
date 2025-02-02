@@ -1,4 +1,5 @@
 class Urzadzenie:
+    
     def wyswietl_komunikat(self):
         print("Komunikat z urządzenia.")
 
@@ -20,4 +21,19 @@ class Odkurzacz(Urzadzenie):
         self.__wlaczony = False
     
     def wlacz(self):
-        
+        self.__wlaczony = True
+        print("Odkurzacz włączony")
+
+    def wylacz(self):
+        self.__wlaczony = False
+    
+    def wyladowanie(self, razy):
+        if razy in (1, 3):
+            for _ in range (razy):
+                print("Odkurzacz wylądował się")
+
+pralka = Pralka()
+pralka.ustaw_program(5)
+pralka.wyswietl_program()
+pralka.ustaw_program(20)
+pralka.wyswietl_program
