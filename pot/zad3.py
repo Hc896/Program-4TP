@@ -1,11 +1,11 @@
 class Ksiazka:
     def __init__(self, __tytul, __autor, __rok_wydania):
-        self.__tytul = __tytul
-        self.__autor = __autor
-        self.__rok_wydania = __rok_wydania
+        self.tytul = __tytul
+        self.autor = __autor
+        self.rok_wydania = __rok_wydania
 
     def __str__(self):
-        return f"{self.__tytul} {self.__autor} {self.__rok_wydania}"
+        return f"{self.tytul} {self.autor} {self.rok_wydania}"
     
 class Biblioteka:
     def __init__(self):
