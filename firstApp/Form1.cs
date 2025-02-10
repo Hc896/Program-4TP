@@ -17,8 +17,18 @@ namespace firstApp
             int suma = ocenaWF + ocenaFiz + ocenaChem + ocenaGeo;
             double srednia = (double)suma / 4;
 
-            MessageBox.Show(ocenaWF.ToString());
-            MessageBox.Show(ocenaFiz.ToString());
+            MessageBox.Show(srednia.ToString());
+         
+        }
+
+        private void wfInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

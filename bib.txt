@@ -1,2 +1,5 @@
-Wiedzmin Andrzej Sapkowski 1993
+Jajo Andrzej Sapkowski 1993
 Dziady Adam Mickiewicz 1823
+<class 'Ksiazka'>
+<class 'Ksiazka'>
+<class 'Ksiazka'><class 'Ksiazka'>Wiedümin Andrzej Sapkowski 1993Dziady Adam Mickiewicz 1823

@@ -1,4 +1,5 @@
 class Ksiazka:
+    
     def __init__(self, __tytul, __autor, __rok_wydania):
         self.tytul = __tytul
         self.autor = __autor
@@ -13,7 +14,9 @@ class Biblioteka:
 
     def dodaj_ksiazke(self, Ksiazka):
         self.ksiazki.append(Ksiazka)
-    
+        with open("bib.txt", "a") as plik:
+            plik.write(str(Ksiazka))
+
     def usun_ksiazke(self, tutyl):
         self.ksiazki = [Ksiazka for Ksiazka in self.ksiazki if Ksiazka.tytul != tutyl]
     

@@ -109,6 +109,7 @@
             label2.Size = new Size(39, 15);
             label2.TabIndex = 2;
             label2.Text = "Fizyka";
+            label2.Click += label2_Click;
             // 
             // wfInput
             // 
@@ -116,6 +117,7 @@
             wfInput.Name = "wfInput";
             wfInput.Size = new Size(100, 23);
             wfInput.TabIndex = 1;
+            wfInput.TextChanged += wfInput_TextChanged;
             // 
             // label1
             // 
