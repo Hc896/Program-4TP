@@ -1,0 +1,61 @@
+package com.example.pralka;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
+    private EditText editTextNumber;
+    private TextView textViewNumerPrania, textViewStatusOdkurzacz;
+    private Button buttonZatwierdz, buttonOdkurzacz;
+    private boolean odkurzaczWlaczony = false;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        editTextNumber = findViewById(R.id.editTextNumber);
+        textViewNumerPrania = findViewById(R.id.textView4);
+        textViewStatusOdkurzacz = findViewById(R.id.textView6);
+        buttonZatwierdz = findViewById(R.id.button);
+        buttonOdkurzacz = findViewById(R.id.button2);
+
+        buttonZatwierdz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String input = editTextNumber.getText().toString();
+                if (!input.isEmpty()) {
+                    try {
+                        int numer = Integer.parseInt(input);
+                        if (numer >= 1 && numer <= 12) {
+                            textViewNumerPrania.setText("Numer prania: " + numer);
+                        } else {
+                            textViewNumerPrania.setText("Numer prania: nie podano");
+                        }
+                    } catch (NumberFormatException e) {
+                        textViewNumerPrania.setText("Numer prania: nie podano");
+                    }
+                }
+            }
+        });
+
+        buttonOdkurzacz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                odkurzaczWlaczony = !odkurzaczWlaczony;
+                if (odkurzaczWlaczony) {
+                    buttonOdkurzacz.setText("Wyłącz");
+                    textViewStatusOdkurzacz.setText("Odkurzacz włączony\nStatus: naładowany");
+                } else {
+                    buttonOdkurzacz.setText("Włącz");
+                    textViewStatusOdkurzacz.setText("Odkurzacz wyłączony");
+                }
+            }
+        });
+    }
+}
