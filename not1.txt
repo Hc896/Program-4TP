@@ -1,0 +1,55 @@
+• 1. Tworzenie tablicy c# 
+• int[] tablica1 = net int[5]; 
+• tablica1[0] = 1; 
+• tablica1[1] = 2; 
+• tablica1[2] = 3; 
+• tablica1[3] = 4; 
+• tablica1[4] = 5; 
+•  
+•  
+• int[] tablica2 = {1,2,3,4,5}; 
+•  
+• 2. Pętla po tablicy 
+•  
+• int[] tablica = {1,2,3,4,5}; 
+• for (int i = 0; i< tablica.length; i++){ 
+• Console.Writeline(tablica[i]); 
+• } 
+•  
+• 3. sortowanie 
+• int[] tablica = {5,3,8,1,2}; 
+• Array.Sort(tablica);/sortowanie rosnąco 
+•  
+• foreach(var element in tablica){ 
+• Console.Writeline(element);//Wyswietli 1,2,3,5,8 
+• } 
+• //var co to za typ danych w c# 
+•  
+• 4.Wyszukiwanie elementu tablicy metoda IndexOf: 
+•  
+• int[] tablica = {10,20,30,40,50} 
+• int index = Array.IndexOf(tablica , 30) 
+• Console.Writeline(index); 
+•  
+• 5. Dlugosc tablicy: 
+•  
+• console.Writeline(tablica.length); 
+•  
+• 6.Dodatanie elementu do tablicy - metoda Resize() 
+• int[] tablica = {1,2,3,4,5}; 
+•  
+• Array.Resize(ref tablica, tablica.length + 1) // zmieniasz rozmiar tablicy dodając w tym wypadku jedno miejsce na nowy element 
+•  
+• tablica[tablica.Length - 1] = 6 // przypisujemy nową wartosc do nowego pola w naszej tablicy 
+•  
+•  
+• 7.Lista -- mozna dynamicznie dodawac elementy 
+•  
+• List<int> lista = new List<int> {1,2,3,4,5};// deklaracja i inicjalizacja w jednej linii 
+•  
+•  
+• lista.Add(6)//dodanie nowego elementu do listy 
+•  
+• foreach(car element in lista){ 
+• console.writeline(element)// wyswietli zawartosc listy: 1,2,3,4,5,6 
+• }

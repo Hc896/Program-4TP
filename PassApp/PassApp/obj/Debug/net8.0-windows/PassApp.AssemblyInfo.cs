@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("firstApp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PassApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbea3d8a398fb8ff52f6f9d7e93bc51189f6d451")]
-[assembly: System.Reflection.AssemblyProductAttribute("firstApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("firstApp")]
+[assembly: System.Reflection.AssemblyProductAttribute("PassApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PassApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

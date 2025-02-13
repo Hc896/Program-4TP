@@ -1,0 +1,116 @@
+Metoda: ToLower()
+Opis: Zamienia wszystkie litery w tekście na małe.
+Parametry: Brak
+Co zwraca: Nowy string z zamienionymi literami na małe.
+Przykład użycia:
+string tekst = "Witaj Świecie!"; string wynik = tekst.ToLower(); Console.WriteLine(wynik); // "witaj świecie!" 
+
+Metoda: ToUpper()
+Opis: Zamienia wszystkie litery w tekście na wielkie.
+Parametry: Brak
+Co zwraca: Nowy string z zamienionymi literami na duże.
+Przykład użycia:
+string tekst = "Witaj Świecie!"; string wynik = tekst.ToUpper(); Console.WriteLine(wynik); // "WITAJ ŚWIECIE!" 
+
+Metoda: IndexOf()
+Opis: Zwraca pierwsze wystąpienie podanego znaku lub ciągu znaków w tekście.
+Parametry: Ciąg znaków lub pojedynczy znak, opcjonalnie indeks początkowy.
+Co zwraca: Indeks pierwszego wystąpienia lub -1, jeśli nie znaleziono.
+Przykład użycia:
+string tekst = "Hello World"; int indeks = tekst.IndexOf("o"); Console.WriteLine(indeks); // 4 
+
+Metoda: Substring()
+Opis: Zwraca fragment stringa określony parametrami.
+Parametry: Indeks początkowy oraz opcjonalnie długość.
+Co zwraca: Nowy string zawierający wycięty fragment.
+Przykład użycia:
+string tekst = "Hello World"; string fragment = tekst.Substring(6, 5); Console.WriteLine(fragment); // "World" 
+
+Metoda: Contains()
+Opis: Sprawdza, czy dany ciąg znaków znajduje się w stringu.
+Parametry: Ciąg znaków do wyszukania.
+Co zwraca: true, jeśli string zawiera podany tekst, w przeciwnym razie false.
+Przykład użycia:
+string tekst = "Hello World"; bool zawiera = tekst.Contains("World"); Console.WriteLine(zawiera); // true 
+
+Metoda: Split()
+Opis: Dzieli stringa na tablicę stringów, używając podanego separatora.
+Parametry: Separator (np. pojedynczy znak lub ciąg znaków).
+Co zwraca: Tablicę stringów.
+Przykład użycia:
+string tekst = "apple,banana,orange"; string[] owoce = tekst.Split(','); Console.WriteLine(string.Join(" | ", owoce)); // "apple | banana | orange" 
+
+Metoda: Replace()
+Opis: Zastępuje wszystkie wystąpienia podanego ciągu znaków innym ciągiem znaków.
+Parametry: Stary ciąg znaków, nowy ciąg znaków.
+Co zwraca: Nowy string z podmienionym tekstem.
+Przykład użycia:
+string tekst = "Hello World"; string nowyTekst = tekst.Replace("World", "Universe"); Console.WriteLine(nowyTekst); // "Hello Universe" 
+
+Metoda: Trim()
+Opis: Usuwa białe znaki (np. spacje) z początku i końca stringa.
+Parametry: Brak
+Co zwraca: Nowy string bez białych znaków na początku i końcu.
+Przykład użycia:
+string tekst = " Hello World "; string wynik = tekst.Trim(); Console.WriteLine($"'{wynik}'"); // 'Hello World' 
+
+Metoda: Equals()
+Opis: Porównuje dwa stringi i sprawdza, czy są identyczne.
+Parametry: Inny string, opcjonalnie porównanie ignorujące wielkość liter.
+Co zwraca: true, jeśli stringi są równe, w przeciwnym razie false.
+Przykład użycia:
+string tekst1 = "Hello"; string tekst2 = "hello"; bool czyRówne = tekst1.Equals(tekst2, StringComparison.OrdinalIgnoreCase); Console.WriteLine(czyRówne); // true 
+
+Metoda: Insert()
+Opis: Wstawia podany ciąg znaków do stringa na określonej pozycji.
+Parametry: Indeks, ciąg znaków do wstawienia.
+Co zwraca: Nowy string z wstawionym tekstem.
+Przykład użycia:
+string tekst = "Hello World"; string nowyTekst = tekst.Insert(6, "Beautiful "); Console.WriteLine(nowyTekst); // "Hello Beautiful World"
+
+DODATKOWE::
+/////////////////////////////////////
+Zagadnienie: Naspisywanie operatorem "+="
+Opis: dodaje liczbe po znaku równości do zmiennej przed tym znakiem
+Przykład użycia:
+
+int a = 5;   
+Console.WriteLine(a); // 5
+a += 3; // a = a + 3
+Console.WriteLine(a); // 8
+
+
+//////////////////////////////////////
+Zagadnienie: iteracja po stringu jak po tablicy
+Opis: wyszukuje podane pozycje w stringu
+Przykład uzycia:
+
+string s = "CSharp";
+Console.WriteLine(s[0]);  // 'C'
+Console.WriteLine(s[^1]); // 'p' (ostatni znak)
+
+
+//////////////////////////////////////
+Zagadnienie: formatowanie stringa składnia z $$
+Opis: pozwala na łatwe formatowanie tekstu wstawiając zmienne bez potrzeby konkatenacji (+) czy String.Format()
+Przykład uzycia:
+
+string name = "Jan";
+int age = 25;
+string message = $"Cześć, {name}! Masz {age} lat.";
+Console.WriteLine(message); // Cześć, Jan! Masz 25 lat.
+
+//////////////////////////////////////
+Zagadnienie: konkatynacja z +
+Opis: pozwala na łączeniu stringów w jeden ciąg tekstowy
+Przykład uzycia:
+
+string name = "Jan";
+int age = 25;
+string message = "Cześć, " + name + "! Masz " + age + " lat.";
+Console.WriteLine(message); // Cześć, Jan! Masz 25 lat.
+
+
+
+
+
