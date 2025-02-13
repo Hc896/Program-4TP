@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PassApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbea3d8a398fb8ff52f6f9d7e93bc51189f6d451")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52ad28db06289ec247d06cca97b702b2a09d8347")]
 [assembly: System.Reflection.AssemblyProductAttribute("PassApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PassApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

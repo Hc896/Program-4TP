@@ -27,10 +27,6 @@
         private void InitializeComponent()
 
         {
-            this.checkBoxLitery = new System.Windows.Forms.CheckBox();
-            this.checkBoxCyfry = new System.Windows.Forms.CheckBox();
-            this.checkBoxZnaki = new System.Windows.Forms.CheckBox();
-
             groupBox1 = new GroupBox();
             submit = new Button();
             stanowiskaLista = new ComboBox();

@@ -2,7 +2,7 @@ namespace PassApp
 {
     public partial class Form1 : Form
     {
-        private string haslo = "X";
+        private string haslo = "";
         private Random r = new Random();
 
         public Form1()
@@ -41,15 +41,14 @@ namespace PassApp
                 return;
             }
 
-            // Pobranie d³ugoœci has³a i walidacja
-            if (!int.TryParse(.Text, out int dlugoscHasla) || dlugoscHasla <= 0)
+            if (!int.TryParse(textBox1.Text, out int dlugoscHasla) || dlugoscHasla <= 0)
             {
                 MessageBox.Show("Podaj poprawn¹ liczbê znaków!", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             Random r = new Random();
-            string haslo = "";
+            haslo = "";
 
             for (int i = 0; i < dlugoscHasla; i++)
             {

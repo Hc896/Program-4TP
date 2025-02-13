@@ -31,3 +31,20 @@ C:\Users\4TP\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\refi
 C:\Users\4TP\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.pdb
 C:\Users\4TP\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.genruntimeconfig.cache
 C:\Users\4TP\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\ref\PassApp.dll
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\bin\Debug\net8.0-windows\PassApp.exe
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\bin\Debug\net8.0-windows\PassApp.deps.json
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\bin\Debug\net8.0-windows\PassApp.runtimeconfig.json
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\bin\Debug\net8.0-windows\PassApp.dll
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\bin\Debug\net8.0-windows\PassApp.pdb
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.Form1.resources
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.csproj.GenerateResource.cache
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.AssemblyInfoInputs.cache
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.AssemblyInfo.cs
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.csproj.CoreCompileInputs.cache
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.sourcelink.json
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.dll
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\refint\PassApp.dll
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.pdb
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\PassApp.genruntimeconfig.cache
+C:\Users\Patryk B\Documents\Program-4TP\PassApp\PassApp\obj\Debug\net8.0-windows\ref\PassApp.dll
