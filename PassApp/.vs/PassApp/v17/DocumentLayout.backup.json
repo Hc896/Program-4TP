@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{3E46EC71-72C6-45FE-9251-F40E4049DBAD}|PassApp\\PassApp.csproj|solutionrelative:passapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E46EC71-72C6-45FE-9251-F40E4049DBAD}|PassApp\\PassApp.csproj|c:\\users\\patryk b\\documents\\program-4tp\\passapp\\passapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3E46EC71-72C6-45FE-9251-F40E4049DBAD}|PassApp\\PassApp.csproj|C:\\Users\\Patryk B\\Documents\\Program-4TP\\PassApp\\passapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3E46EC71-72C6-45FE-9251-F40E4049DBAD}|PassApp\\PassApp.csproj|solutionrelative:passapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -50,8 +50,7 @@
               "RelativeToolTip": "PassApp\\Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2025-02-13T17:41:03.332Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -64,14 +63,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Projekt]",
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Patryk B\\Documents\\Program-4TP\\PassApp\\PassApp\\Form1.cs",
               "RelativeDocumentMoniker": "PassApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\Patryk B\\Documents\\Program-4TP\\PassApp\\PassApp\\Form1.cs [Projekt]",
-              "RelativeToolTip": "PassApp\\Form1.cs [Projekt]",
+              "ToolTip": "C:\\Users\\Patryk B\\Documents\\Program-4TP\\PassApp\\PassApp\\Form1.cs [Design]",
+              "RelativeToolTip": "PassApp\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T17:53:51.354Z",
-              "EditorCaption": " [Projekt]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "PassApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T17:41:15.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T17:41:15.537Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "PassApp\\PassApp.csproj.user",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-02-13T17:41:14.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T17:41:14.862Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "PassApp\\PassApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-13T17:41:13.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T17:41:13.903Z"
             },
             {
               "$type": "Document",
@@ -120,7 +116,7 @@
               "RelativeDocumentMoniker": "PassApp\\Form1.cs",
               "ToolTip": "C:\\Users\\Patryk B\\Documents\\Program-4TP\\PassApp\\PassApp\\Form1.cs",
               "RelativeToolTip": "PassApp\\Form1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowDEAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T17:40:58.312Z",
               "EditorCaption": ""
@@ -135,8 +131,7 @@
               "RelativeToolTip": "PassApp\\Form1.Designer.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwCoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T17:40:56.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T17:40:56.147Z"
             }
           ]
         }
