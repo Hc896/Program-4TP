@@ -80,5 +80,15 @@ namespace PassApp
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void nazwiskoInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stanowiskaLista_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -22,10 +22,9 @@
 
         #region Windows Form Designer generated code
 
-      
+
 
         private void InitializeComponent()
-
         {
             groupBox1 = new GroupBox();
             submit = new Button();
@@ -81,6 +80,7 @@
             stanowiskaLista.Name = "stanowiskaLista";
             stanowiskaLista.Size = new Size(121, 23);
             stanowiskaLista.TabIndex = 5;
+            stanowiskaLista.SelectedIndexChanged += stanowiskaLista_SelectedIndexChanged;
             // 
             // label3
             // 
@@ -97,6 +97,7 @@
             nazwiskoInput.Name = "nazwiskoInput";
             nazwiskoInput.Size = new Size(100, 23);
             nazwiskoInput.TabIndex = 3;
+            nazwiskoInput.TextChanged += nazwiskoInput_TextChanged;
             // 
             // label2
             // 
