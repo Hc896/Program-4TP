@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Egzamin\\Desktop\\Gorillaz\\",
+  "WorkspaceRootPath": "C:\\Users\\4TP\\Documents\\Program-4TP\\Stenka\\Gorillaz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{105E9AE0-2E08-417B-B85B-0A1316FB94AD}|Gorillaz\\Gorillaz.csproj|c:\\users\\egzamin\\desktop\\gorillaz\\gorillaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{105E9AE0-2E08-417B-B85B-0A1316FB94AD}|Gorillaz\\Gorillaz.csproj|c:\\users\\4tp\\documents\\program-4tp\\stenka\\gorillaz\\gorillaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{105E9AE0-2E08-417B-B85B-0A1316FB94AD}|Gorillaz\\Gorillaz.csproj|solutionrelative:gorillaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105E9AE0-2E08-417B-B85B-0A1316FB94AD}|Gorillaz\\Gorillaz.csproj|c:\\users\\egzamin\\desktop\\gorillaz\\gorillaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{105E9AE0-2E08-417B-B85B-0A1316FB94AD}|Gorillaz\\Gorillaz.csproj|c:\\users\\4tp\\documents\\program-4tp\\stenka\\gorillaz\\gorillaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105E9AE0-2E08-417B-B85B-0A1316FB94AD}|Gorillaz\\Gorillaz.csproj|solutionrelative:gorillaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +18,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Egzamin\\Desktop\\Gorillaz\\Gorillaz\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\4TP\\Documents\\Program-4TP\\Stenka\\Gorillaz\\Gorillaz\\Form1.cs",
               "RelativeDocumentMoniker": "Gorillaz\\Form1.cs",
-              "ToolTip": "C:\\Users\\Egzamin\\Desktop\\Gorillaz\\Gorillaz\\Form1.cs",
+              "ToolTip": "C:\\Users\\4TP\\Documents\\Program-4TP\\Stenka\\Gorillaz\\Gorillaz\\Form1.cs",
               "RelativeToolTip": "Gorillaz\\Form1.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,9 +45,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\Egzamin\\Desktop\\Gorillaz\\Gorillaz\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\4TP\\Documents\\Program-4TP\\Stenka\\Gorillaz\\Gorillaz\\Form1.cs",
               "RelativeDocumentMoniker": "Gorillaz\\Form1.cs",
-              "ToolTip": "C:\\Users\\Egzamin\\Desktop\\Gorillaz\\Gorillaz\\Form1.cs [Projekt]",
+              "ToolTip": "C:\\Users\\4TP\\Documents\\Program-4TP\\Stenka\\Gorillaz\\Gorillaz\\Form1.cs [Projekt]",
               "RelativeToolTip": "Gorillaz\\Form1.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T08:53:10.853Z",
