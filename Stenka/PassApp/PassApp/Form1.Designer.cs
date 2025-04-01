@@ -60,7 +60,8 @@
             groupBox1.Size = new Size(236, 172);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
+            groupBox1.Text = "Dane pracownika";
+            groupBox1.Enter += groupBox1_Enter;
             // 
             // submit
             // 
@@ -138,7 +139,8 @@
             groupBox2.Size = new Size(236, 172);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
-            groupBox2.Text = "groupBox2";
+            groupBox2.Text = "Generowanie hasła";
+            groupBox2.Enter += groupBox2_Enter;
             // 
             // genPass
             // 
@@ -202,6 +204,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
